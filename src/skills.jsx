@@ -10,7 +10,7 @@ function Skill() {
     <div>
       <div className="skilldiv">
         <div className="skillflex">
-          <h1 className="mainskill">My Skills</h1>
+          <h1 className="mainskill">My Skills 👨‍🎓</h1>
           <h3 className="skillabout-p">Web Dev | ReactJS Dev | SURAJ JHA</h3>
         </div>
         <div className="skillabout">

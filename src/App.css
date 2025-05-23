@@ -91,6 +91,8 @@ option {
 }
 .child:hover {
   filter: none !important;
+  background-color: cyan;
+  box-shadow: 0px 0px 35px 1px rgba(0, 255, 255, 0.771);
 }
 
 .rotate {
@@ -148,21 +150,20 @@ option {
   width: 600px;
   transition: transform 0.3s ease;
   background-color: whitesmoke;
-  padding: 15px;
+  padding: 35px;
   border-radius: 25px;
   border: 3px solid darkblue;
   color: rgb(24, 24, 40);
-  font-weight: bold;
+
   box-shadow: 3px 3px 3px grey;
+  margin-top: 30px;
 }
 .about-para:hover {
   background-color: rgb(38, 38, 65);
   color: white;
   transform: scale(1.1);
-  border: 2px solid white;
-  box-shadow: 0px 0px 20px 1px cyan, 0px 0px 20px 1px cyan inset,
-    0px 0px 20px 1px inset, 0px 0px 20px 1px cyan;
-  margin-top: 50px;
+  border: none;
+  box-shadow: 0px 0px 20px 1px cyan inset, 0px 0px 20px 1px inset;
 }
 .skilldiv {
   background-color: rgba(127, 236, 255, 0.655);
@@ -243,16 +244,16 @@ option {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 65px;
+  box-shadow: 0px 0px 25px 1px whitesmoke;
+  padding-right: 65px;
   background-color: whitesmoke;
 }
 .html:hover {
   color: white;
   background-color: darkblue;
-  border: 2px solid white;
-  box-shadow: 0px 0px 20px 1px cyan, 0px 0px 20px 1px cyan inset,
-    0px 0px 20px 1px inset, 0px 0px 20px 1px cyan;
+
+  box-shadow: 0px 0px 20px 1px cyan inset, 0px 0px 20px 1px inset;
   box-sizing: content-box;
   cursor: pointer;
 }
@@ -266,17 +267,18 @@ option {
   width: 150px;
   font-weight: bold;
   border-style: none;
-  border: 5px solid cyan;
+  border: 2px solid cyan;
   color: white;
   border-radius: 25px;
   background-color: darkblue;
 }
 .moreview:hover {
   border-style: none;
-  border: 5px solid cyan;
+
   color: darkblue;
   border-radius: 25px;
-  background-color: white;
+  background-color: cyan;
+  box-shadow: 0px 0px 35px 1px rgba(0, 255, 255, 0.771);
 }
 .projectdiv {
   background-color: azure;
@@ -293,12 +295,15 @@ option {
 }
 .todo-p {
   width: 200px;
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 15px;
 }
 .project-1 {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  border: 3px solid white;
+
   max-width: 250px;
   justify-content: center;
   align-items: center;
@@ -308,12 +313,13 @@ option {
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 25px;
-  box-shadow: 0px 0px 20px 1px cyan, 0px 0px 20px 1px cyan inset,
-    0px 0px 20px 1px inset, 0px 0px 20px 1px cyan;
+  box-shadow: 0px 0px 10px 1px cyan, 0px 0px 5px 1px cyan inset,
+    0px 0px 10px 1px inset, 0px 0px 10px 1px cyan;
 }
 .project-1:hover {
   transform: scale(1.1);
   cursor: pointer;
+  box-shadow: 0px 0px 20px 1px cyan inset, 0px 0px 20px 1px inset;
 }
 .moreviewbtn {
   height: 35px;
@@ -327,10 +333,11 @@ option {
   font-weight: bold;
 }
 .moreviewbtn:hover {
-  border: 5px solid cyan;
   color: darkblue;
   border-radius: 25px;
-  background-color: white;
+  border: none;
+  background-color: cyan;
+  box-shadow: 0px 0px 35px 1px rgba(0, 255, 255, 0.771);
 }
 .project {
   display: flex;
@@ -352,4 +359,94 @@ b {
 }
 .todo {
   color: rgb(6, 171, 231);
+  margin-top: 15px;
+}
+.maincontact {
+  text-align: center;
+  padding: 65px;
+}
+.in-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#name {
+  height: 35px;
+  width: 500px;
+  text-align: center;
+}
+
+label {
+  margin-top: 15px;
+}
+#name-2 {
+  height: 150px;
+  width: 500px;
+}
+.in-flex-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contactflex-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: whitesmoke;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.in-btn-in {
+  height: 45px;
+  width: 500px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: #191926;
+}
+.in-btn-in:hover {
+  background-color: rgb(9, 4, 98);
+  box-shadow: 0px 0px 35px 1px rgba(4, 3, 75, 0.771);
+}
+.footerdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 55px;
+  margin-top: 50px;
+  background-color: #191926;
+}
+.footerflex {
+  display: flex;
+
+  gap: 25px;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-p1-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-left: 3px solid white;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.footer-h1 {
+  color: white;
+  text-align: center;
+}
+.ul-a {
+  text-decoration: none;
+  color: cyan;
+  text-align: center;
+}
+.home-li,
+.footer-p1 {
+  color: cyan;
+  text-align: center;
 }

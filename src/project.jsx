@@ -6,7 +6,7 @@ function Project() {
     <div>
       <div className="projectdiv">
         <div className="projectflex">
-          <h1 className="mainproject">My Project</h1>
+          <h1 className="mainproject">My Project 📝</h1>
         </div>
         <div className="project">
           <div className="project-1">
