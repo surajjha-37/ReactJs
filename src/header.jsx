@@ -39,6 +39,9 @@ function Header() {
             </li>
           </ul>
         </nav>
+        <div class="hamburger" id="hamburger">
+          ☰
+        </div>
       </header>
     </div>
   );

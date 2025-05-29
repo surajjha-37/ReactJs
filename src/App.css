@@ -15,8 +15,7 @@ header {
   box-shadow: 0px 0px 10px 0px yellow;
   z-index: 2;
   position: fixed;
-
-  width: 100%;
+  width: 100vw;
 }
 .logo {
   display: flex;
@@ -465,28 +464,24 @@ label {
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
-    gap: 46px;
-    margin-left: 65px;
   }
   .html {
     width: 200px;
     height: 300px;
-    margin-left: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-right: 25px;
     box-shadow: 0px 0px 15px 1px white;
   }
   .project-1 {
     width: 250px;
     height: 300px;
-    margin-left: 25px;
+    margin-left: 55px;
     margin-right: 25px;
   }
   .project {
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
-    gap: 45px;
   }
   .todo-p {
     overflow: scroll;
@@ -513,5 +508,33 @@ label {
   .home-li,
   .ul-a {
     margin-left: -155px;
+  }
+  .hamburger {
+    display: block;
+    color: white;
+    margin-top: 3%;
+    font-size: 30px;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .h1 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .logo {
+    margin-left: -55px;
+  }
+  .logo-in {
+    height: 50px;
+    width: 50px;
+  }
+  .about-p {
+    background-color: #191926;
+  }
+  .about-in {
+    color: blueviolet;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 }
