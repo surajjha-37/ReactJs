@@ -3,7 +3,7 @@ import "./App.css";
 import Javascript from "./Jslogo.jpg";
 import HTML from "./htmllogo.png";
 import CSS from "./Csslogo.jpg";
-import ReactJs from "./ReactJslogo.jpg";
+import ReactJs from "./ReactJslogo.png";
 
 function Skill() {
   return (
