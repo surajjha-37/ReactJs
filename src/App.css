@@ -449,6 +449,52 @@ label {
   color: cyan;
   text-align: center;
 }
+.container-hello {
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.main-hello {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #191926;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 20px 1px gray;
+}
+.output-in {
+  background-color: whitesmoke;
+  padding: 5px;
+  width: 290px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+.name {
+  color: darkblue;
+  font-weight: bold;
+}
+.input-in {
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+  border: 2px solid cyan;
+  box-shadow: 0px 0px 5px 1px cyan;
+  border-radius: 5px;
+}
+.hello {
+  color: cyan;
+}
 @media (max-width: 600px) {
   .flex-inn {
     display: none;
@@ -536,5 +582,51 @@ label {
   .about-in {
     color: blueviolet;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container-hello {
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-hello {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #191926;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 20px 1px gray;
+  }
+  .output-in {
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 240px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  .name {
+    color: darkblue;
+    font-weight: bold;
+  }
+  .input-in {
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 5px 1px cyan;
+    border-radius: 5px;
+  }
+  .hello {
+    color: cyan;
   }
 }
